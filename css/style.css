@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+:root {
+    --red: #fd634e;
+    --green: #a2ca28;
+}
+
+header {
+    height: 100vh;
+    background: url("../img/headbg.jpg") center/cover;
+    padding: 40px 50px;
+    position: relative;
+}
+
+header nav {
+    text-align: center;
+}
+
+#menu {
+    padding: 20px 0 0 0;
+}
+
+#menu a {
+    font: .8em/1.5 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+#topics {
+    position: absolute;
+    bottom: 17vh;
+    left: 7.5%;
+    text-align: right;
+}
+
+h1 {
+
+    font: 2em/1.5 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h5 {
+    font: 1em/2 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 60px 0 0;
+}
+
+.col25 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font: 300 1em/1.5 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0 200px;
+}
+
+.col25>* {
+    margin: 10px 0;
+}
+
+.col25>* {
+    font-weight: 400;
+    width: 300px;
+
+}
+
+.col25 > p{
+}
+
+
+
+h3 {
+    font-size: 1.5em;
+    font-weight: normal
+}
+
+h6 {
+    font: 600 0.875em "Montserrat";
+    text-transform: uppercase;
+}
+
+.whitedrop {
+    margin: 10px auto;
+}
+
+h2 {
+    font: 300 1.875em "Open Sans";
+    text-transform: uppercase;
+}
+
+.text {
+    font: 400 0.875em/1.625 "Open Sans";
+    color: #656e74;
+    margin: 20px 0;
+
+}
+
+.readmore {
+    font: 400 0.875em/1.625 "Open Sans";
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: var(--green);
+}
+
+.summer{
+    font-weight: 300;
+    
+}
+
+#leaders{
+    height: 100vh;
+    background-image: url('../img/bg.jpg');
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex > h1{
+    font: 400 2em/2 'Open Sans';
+}
+
+.flex > p{
+    font: 400 1em/1.44 'Open Sans';
+    color: white;
+    width: 40%;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > div > article{
+    margin: 0 10px;
+}
+
+footer > div p:first-child{
+    color: #fff;
+    font: 400 1em/0.75 'Open Sans';
+}
+
+footer > div p:nth-child(2){
+    color: #8297a7;
+    font: 400 0.88em/1.5 'Open Sans';
+    margin: 20px 0;
+}
+
+.links-row{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+.links-row > img{
+    margin: 0 10px;
+}
+
+footer{
+    height: 100vh;
+    padding: 30px 40px;
+    background-color: #0d1119;
+}
+
+.email > *{
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+.email > input{
+    padding: 10px 14px;
+    font: 0.88em 'Roboto';
+    color: #83969f;
+}
+
+.email > button{
+    font: bold 0.88em/2em 'Roboto';
+    color: #fff;
+    background-color: #a2ca28;
+}
+
+.bgred {
+    background: var(--red)
+}
+
+.bggreen {
+    background: var(--green);
+}
+
+.bgwhite {
+    background: #fff;
+}
+
+.txtred {
+    color: var(--red)
+}
+
+.txtgreen {
+    color: var(--green);
+}
+
+.txtwhite {
+    color: #fff;
+}
+
+.col25 i {
+    font-size: 3em;
+}
+
+.artrow {
+    padding: 90px 0;
+    text-align: justify;
+}
+
+.padding50 {
+    padding: 50px;
+}
+
+.acenter {
+    text-align: center;
+}
+
+.vh50 {
+    height: 50vh;
+}
+
+.textwhite{
+    color: #fff;
+}
+
+.bggreen > h1{
+    font: 300 2em/1.875 'Open Sans' ;
+    margin-bottom: 0;
+}
+
+.improve{
+    font: 400 1em/1.25 'Montserrat';
+}
+
+#fitnessfirst {
+    background: url('../img/fitnessfirst.jpg') center/cover;
+}
+
+#yourbody {
+    background: url("../img/yourbody.jpg") center/cover;
+}
+
+#lifestyle {
+    background: url("../img/lifestyle.jpg") center/cover;
+}
+
+#summeroffun {
+    background: url("../img/summeroffun.jpg") center/cover;
+}
+
+#grape{
+    background: url("../img/grape.jpg") center/cover;
+}
+
+#mango{
+    background: url("../img/mango.jpg") center/cover;
+}
+
+@media only screen and (min-width: 768px) {
+    header nav {
+        text-align: inherit;
+    }
+
+    #menu {
+        float: right;
+    }
+
+    #menu li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    .row::after {
+        content: ' ';
+        display: table;
+        clear: both;
+    }
+
+    .container {
+        max-width: 1180px;
+        margin: auto;
+        padding: 0;
+    }
+
+    .fleft {
+        float: left;
+    }
+
+    .fright {
+        float: right;
+    }
+
+    .col25 {
+        width: 25%;
+        padding: 0 20px 0 0;
+        align-items: flex-start;
+        text-align: left;
+
+    }
+
+    .col33 {
+        width: 33.33%;
+    }
+
+    .col66 {
+        width: 66.66%;
+    }
+
+    .flex-row{
+        flex-direction: row;
+    }
+
+    .email{
+        float: right;
+        margin: 0 40px;
+    }
+
+    footer{
+        height: 40vh;
+    }
+}
